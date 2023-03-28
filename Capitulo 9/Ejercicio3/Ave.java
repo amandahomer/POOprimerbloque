@@ -2,8 +2,7 @@ package Ejercicio3;
 
 public class Ave extends Animal {
     //Atributos
-    super();
-    private static int huevos;
+    private int huevos;
 
     //Constructor
     public Ave(String sexo){
@@ -18,7 +17,7 @@ public class Ave extends Animal {
     public int gethuevos(){
         return huevos;
     }
-    public int sethuevos(int numHuevos){
+    public void sethuevos(int numHuevos){
         this.huevos = numHuevos;
     }
     public void ponHuevo() {

@@ -27,11 +27,11 @@ public abstract class Vehiculo {
         return vehiculosCreados;
     }
     public void setkilometrosRecorridos(int km) {
-				kilometrosRecorridos += km;
+		kilometrosRecorridos += km;
         kilometrosTotales += km;
-		}
+	}
     public void setVehiculosCreados(int nuevoVehiculo){
-				vehiculosCreados = nuevoVehiculo;
-		}
+		vehiculosCreados = nuevoVehiculo;
+	}
 
 }

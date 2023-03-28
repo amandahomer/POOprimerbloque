@@ -5,13 +5,13 @@ public abstract class Pizza {
     private static int totalPedidas = 0;
     private static int totalServidas = 0;
     //Atributos instancia
-    private String tamaño;
+    private String tamanio;
     private String tipo;
     private String estado;
 
     //Constructor
-    public Pizza(String tamaño, String tipo){
-        this.tamaño = tamaño;
+    public Pizza(String tamanio, String tipo){
+        this.tamanio = tamanio;
         this.tipo = tipo;
         this.estado = "pedida";
         Pizza.totalPedidas++;

@@ -2,8 +2,8 @@ package Ejercicio3;
 
 public abstract class Animal {
     //Atributos
-    private static String sexo;
-    private static int numPatas;
+    private String sexo;
+    private int numPatas;
 
     //Constructor
     public Animal(){
@@ -11,18 +11,21 @@ public abstract class Animal {
         this.numPatas = 0;
     }
 
+    public Animal(String sexo2) {
+    }
+
     //Metodos
-    public String getsexo(){
+    public String getSexo(){
         return sexo;
     }
     public int getnumPatas(){
         return numPatas;
     }
-    public String getSexo(String sexo){
+    public void setSexo(String sexo){
         this.sexo = sexo;
     }
-    public int setNumPatas(int patas){
-        numPatas = patas;
+    public void setNumPatas(int patas){
+        this.numPatas = patas;
     }
     public void duerme(){
         System.out.println("Zzzzzz");

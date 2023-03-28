@@ -2,13 +2,15 @@ package Ejercicio3;
 
 public class Mamifero extends Animal {
     //Atributos
-    super();
-    private static int crias;
+    private int crias;
 
     //Constructor
     public Mamifero(String sexo){
         super(sexo);
         crias = 0;
+    }
+    public Mamifero(){
+      
     }
 
     //Metodos
@@ -18,7 +20,7 @@ public class Mamifero extends Animal {
     public int getCrias(){
         return crias;
     }
-    public int setCrias(int numCrias){
+    public void setCrias(int numCrias){
         this.crias = numCrias;
     }
     public void tenCria() {

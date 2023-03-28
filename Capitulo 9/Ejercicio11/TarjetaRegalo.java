@@ -38,7 +38,7 @@ public class TarjetaRegalo {
         this.saldo = saldo;
     }
 
-    TarjetaRegalo fusionaCon(TarjetaRegalo x) {
+    public  TarjetaRegalo fusionaCon(TarjetaRegalo x) {
         double nuevoSaldo = this.getSaldo() + x.getSaldo();
         this.setSaldo(0);
         x.setSaldo(0);

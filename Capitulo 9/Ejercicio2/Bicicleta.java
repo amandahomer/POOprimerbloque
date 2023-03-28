@@ -2,12 +2,12 @@ package Ejercicio2;
 
 public class Bicicleta extends Vehiculo{
     //Atributos
-    private int piñones;
+    private int piniones;
     
     //Constructor
     public Bicicleta(){
 		super();
-        this.piñones = piñones;
+        this.piniones = piniones;
     }
 
     //Metodos
