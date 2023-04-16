@@ -35,7 +35,7 @@ public class Ejercicio2 {
 					System.out.println("5. Salir.");
 					System.out.println();
 
-
+					
 					System.out.print("Elige una opcion: ");
 					opcion = s.nextLine();
 					System.out.println();
